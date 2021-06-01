@@ -187,7 +187,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy - Common
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
 # Sepolicy - olive
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
